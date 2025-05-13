@@ -1,0 +1,9 @@
+@echo off
+echo Adding all files to git...
+"C:\Program Files\Git\bin\git.exe" add .
+echo Committing changes...
+"C:\Program Files\Git\bin\git.exe" commit -m "Upload complete code"
+echo Pushing to GitHub...
+"C:\Program Files\Git\bin\git.exe" push -u origin main
+echo Done!
+pause
